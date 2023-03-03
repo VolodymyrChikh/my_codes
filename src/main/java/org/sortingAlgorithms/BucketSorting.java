@@ -1,15 +1,16 @@
-package org.example;
+package org.sortingAlgorithms;
 
 import java.util.*;
 
 
 public class BucketSorting {
-
-    static double[] bucketSort(double[] arrayOfNumbers, int numberOfBuckets) {
-
+    static double[] execute(double[] arrayOfNumbers) {
         // Find the maximum value in the array
         double max = Arrays.stream(arrayOfNumbers).max().getAsDouble();
         double min = Arrays.stream(arrayOfNumbers).min().getAsDouble();
+
+        // declaring the number of buckets
+        int numberOfBuckets = 4;
 
         // create range of buckets
         double range = (max - min + 1) / numberOfBuckets;

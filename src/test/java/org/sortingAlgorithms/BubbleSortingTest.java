@@ -1,4 +1,4 @@
-package org.example;
+package org.sortingAlgorithms;
 
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +16,6 @@ class BubbleSortingTest {
     @Test
     void sortSimpleList(){
         BubbleSorting bubbleSorting = new BubbleSorting();
-        assertThat(sorted, is(bubbleSorting.bubbleSort(unsorted)));
+        assertThat(sorted, is(bubbleSorting.execute(unsorted)));
     }
 }
