@@ -22,10 +22,10 @@ namespace sweets {
 
         virtual void WriteTo(std::ostream &out) const;
 
+        int get_weight() const;
+
     protected:
         const std::string &get_type() const;
-
-        int get_weight() const;
 
         void set_type(const std::string &filling_type);
 

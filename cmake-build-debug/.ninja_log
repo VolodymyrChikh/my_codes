@@ -1,11 +1,11 @@
 # ninja log v5
-0	926	6999632094076898	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
-22	986	6999632094705611	CMakeFiles/4__08_03___composition.dir/filling.cpp.obj	f0fd071fce8abd1e
-986	1358	6999632098354257	4__08_03___composition.exe	e698bcb8ff5af503
-2	545	6999636231430617	CMakeFiles/4__08_03___composition.dir/filling.cpp.obj	f0fd071fce8abd1e
-546	739	6999636233330456	4__08_03___composition.exe	e698bcb8ff5af503
-3	453	6999636342550615	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
-454	668	6999636344668647	4__08_03___composition.exe	e698bcb8ff5af503
-3	474	6999647627336429	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
+2	464	6999687050286405	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
 16	493	6999647627518783	CMakeFiles/4__08_03___composition.dir/filling.cpp.obj	f0fd071fce8abd1e
-493	669	6999647629252007	4__08_03___composition.exe	e698bcb8ff5af503
+495	665	6999687531138514	4__08_03___composition.exe	3aa7a6754b84dbe1
+3	495	6999687529451768	CMakeFiles/4__08_03___composition.dir/choco_bar.cpp.obj	7bf276e5e0cf338e
+2	525	6999701138525142	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
+15	529	6999701138565131	CMakeFiles/4__08_03___composition.dir/filling.cpp.obj	f0fd071fce8abd1e
+21	530	6999701138575911	CMakeFiles/4__08_03___composition.dir/choco_bar.cpp.obj	7bf276e5e0cf338e
+2	486	6999703458903537	CMakeFiles/4__08_03___composition.dir/main.cpp.obj	2dbe19ddbed698ef
+15	489	6999703458953845	CMakeFiles/4__08_03___composition.dir/candy_bar.cpp.obj	795f5fc231050c0d
+489	670	6999703460739842	4__08_03___composition.exe	2d63865db51ef64d

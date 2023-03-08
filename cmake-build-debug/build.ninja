@@ -61,6 +61,18 @@ build CMakeFiles/4__08_03___composition.dir/filling.cpp.obj: CXX_COMPILER__4__08
   OBJECT_DIR = CMakeFiles\4__08_03___composition.dir
   OBJECT_FILE_DIR = CMakeFiles\4__08_03___composition.dir
 
+build CMakeFiles/4__08_03___composition.dir/choco_bar.cpp.obj: CXX_COMPILER__4__08_03___composition_Debug D$:/New$ folder$ (2)/2$ semester/4)$ 08.03$ -$ composition/choco_bar.cpp || cmake_object_order_depends_target_4__08_03___composition
+  DEP_FILE = CMakeFiles\4__08_03___composition.dir\choco_bar.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\4__08_03___composition.dir
+  OBJECT_FILE_DIR = CMakeFiles\4__08_03___composition.dir
+
+build CMakeFiles/4__08_03___composition.dir/candy_bar.cpp.obj: CXX_COMPILER__4__08_03___composition_Debug D$:/New$ folder$ (2)/2$ semester/4)$ 08.03$ -$ composition/candy_bar.cpp || cmake_object_order_depends_target_4__08_03___composition
+  DEP_FILE = CMakeFiles\4__08_03___composition.dir\candy_bar.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\4__08_03___composition.dir
+  OBJECT_FILE_DIR = CMakeFiles\4__08_03___composition.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 4__08_03___composition
@@ -69,7 +81,7 @@ build CMakeFiles/4__08_03___composition.dir/filling.cpp.obj: CXX_COMPILER__4__08
 #############################################
 # Link the executable 4__08_03___composition.exe
 
-build 4__08_03___composition.exe: CXX_EXECUTABLE_LINKER__4__08_03___composition_Debug CMakeFiles/4__08_03___composition.dir/main.cpp.obj CMakeFiles/4__08_03___composition.dir/filling.cpp.obj
+build 4__08_03___composition.exe: CXX_EXECUTABLE_LINKER__4__08_03___composition_Debug CMakeFiles/4__08_03___composition.dir/main.cpp.obj CMakeFiles/4__08_03___composition.dir/filling.cpp.obj CMakeFiles/4__08_03___composition.dir/choco_bar.cpp.obj CMakeFiles/4__08_03___composition.dir/candy_bar.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\4__08_03___composition.dir

@@ -3,4 +3,4 @@ project(4__08_03___composition)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(4__08_03___composition main.cpp filling.cpp filling.h)
+add_executable(4__08_03___composition main.cpp filling.cpp filling.h choco_bar.cpp choco_bar.h candy_bar.cpp candy_bar.h)
