@@ -17,7 +17,7 @@ public class StudentController {
     private final StudentService studentService;
 
 
-    @Autowired //
+    @Autowired 
     public StudentController(StudentService userService) {
         this.studentService = userService;
     }
@@ -36,11 +36,6 @@ public class StudentController {
         List<Student> students = studentService.findAll();
         return students;
     }
-
-    /*@GetMapping("/user-create")
-    public String createStudentForm(Student student){
-        return "student-create";
-    }*/
 
     @PostMapping
     public Student createStudent(Student student){
